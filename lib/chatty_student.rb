@@ -7,8 +7,5 @@ class ChattyStudent < Student
   end
 
   def raise_hand
-    super.each do |phrase|
-      phrase.times(10)
-  end
-end
+    super.times
 end
