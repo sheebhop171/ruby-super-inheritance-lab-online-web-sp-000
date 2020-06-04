@@ -10,5 +10,5 @@ class ChattyStudent < Student
     super.each do |phrase|
       phrase.times(10)
   end
-  dn
+end
 end
